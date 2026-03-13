@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="10.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DesafioMed.Contatos.Contracts\DesafioMed.Contatos.Contracts.csproj" />
+    <ProjectReference Include="..\DesafioMed.Contatos.Domain\DesafioMed.Contatos.Domain.csproj" />
+    <ProjectReference Include="..\DesafioMed.Contatos.Infrastructure\DesafioMed.Contatos.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="DesafioMed.Contatos.API/DesafioMed.Contatos.API.csproj" />
+  <Project Path="DesafioMed.Contatos.Application/DesafioMed.Contatos.Application.csproj" />
+  <Project Path="DesafioMed.Contatos.Contracts/DesafioMed.Contatos.Contracts.csproj" />
+  <Project Path="DesafioMed.Contatos.Domain/DesafioMed.Contatos.Domain.csproj" />
+  <Project Path="DesafioMed.Contatos.Infrastructure/DesafioMed.Contatos.Infrastructure.csproj" />
+  <Project Path="DesafioMED.Contatos.Test/DesafioMED.Contatos.Test.csproj" Id="cccbdb1e-721b-4808-843b-10c212ec35c8" />
+</Solution>
