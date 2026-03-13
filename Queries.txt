@@ -1,0 +1,10 @@
+CREATE DATABASE Testes
+
+CREATE TABLE ContatoProva (
+    Id UNIQUEIDENTIFIER PRIMARY KEY,        
+    Nome NVARCHAR(255) NOT NULL,           
+    DataDeNascimento DATE NOT NULL,          
+    Sexo INT NOT NULL,                       
+    Ativo BIT NOT NULL                      
+);
+GO

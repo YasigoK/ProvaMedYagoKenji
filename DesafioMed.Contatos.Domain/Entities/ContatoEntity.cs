@@ -53,8 +53,8 @@ namespace DesafioMed.Contatos.Domain.Entities
         {
             int Idade = CalcularIdade(this.DataNascimento);
 
-            if (Idade == 0)
-                throw new DomainException("A idade não pode ser igual a zero.");
+            //if (Idade != 0)
+            //    throw new DomainException("A idade não pode ser igual a zero.");
 
             if (this.DataNascimento > DateTime.Today)
                 throw new DomainException("A data de nascimento não pode ser no futuro.");
